@@ -1,0 +1,158 @@
+body {
+  font-family:'Source Sans Pro', sans-serif;
+  margin:0;
+  padding:0;
+}
+
+#main_container {
+  background-color:#2574A9;
+  width:100%;
+  height:540px;
+  padding-top:20px;
+  color:#FFF;
+  -webkit-box-shadow: 0 8px 6px -6px #C0C0C0;
+	-moz-box-shadow: 0 8px 6px -6px #C0C0C0;
+	box-shadow: 0 8px 6px -6px #C0C0C0;
+
+}
+
+#container {
+  height:500px;
+  width:800px;
+  margin:0px auto;
+}
+
+#container h1 {
+  text-align:center;
+}
+
+#container h2 {
+  text-align:center;
+  font-weight:300;
+  margin-top:50px;
+}
+
+#info_area {
+  margin-bottom:20px;
+}
+
+#info_area_text {
+  text-align:center;
+  font-size:24px !important;
+  font-weight:300;
+  width:800px;
+  height:124px;
+}
+
+#container p {
+  font-size:20px;
+  font-weight:300;
+}
+
+#logo {
+  margin:0px auto;
+  width:217px;
+  height:89px;
+}
+
+#btn_assign {
+  border:none;
+  outline:none;
+  margin-top:30px;
+  height:52px;
+  width:260px;
+  font-family:"Source Sans Pro";
+  font-size:18px;
+  font-weight:700;
+  -webkit-box-shadow: 0 8px 6px -8px #078410;
+  -moz-box-shadow: 0 8px 6px -8px #078410;
+  box-shadow: 0 8px 6px -8px #078410;
+  border-radius:4px;
+  background-color:#0bd318;
+  color:#FFFFFF;
+}
+
+#btn_login {
+  border:none;
+  outline:none;
+  margin-top:30px;
+  height:52px;
+  width:260px;
+  font-family:"Source Sans Pro";
+  font-size:18px;
+  font-weight:700;
+  -webkit-box-shadow: 0 8px 6px -8px #34495E;
+  -moz-box-shadow: 0 8px 6px -8px #34495E;
+  box-shadow: 0 8px 6px -8px #34495E;
+  border-radius:4px;
+  background-color:#2C3E50;
+  color:#FFFFFF;
+}
+
+#task_form {
+  text-align:center;
+}
+
+#login_form {
+  text-align:center;
+}
+
+#company {
+  width:316px;
+  margin:0px auto;
+}
+#company a {
+  font-weight:400;
+  color:#6BB9F0;
+}
+
+.error {
+  color:#900000;
+  vertical-align:middle;
+  line-height:124px;
+}
+
+.success {
+  color:#2ecc71;
+  vertical-align:middle;
+  line-height:124px;
+}
+
+#message_area {
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.text_box {
+    width:700px;
+    border:1px solid #C0C0C0;
+    border-radius:5px;
+    font-family:"Source Sans Pro";
+    font-size:20px;
+    padding:10px;
+    font-weight:400;
+    outline:none;
+}
+
+#login_container {
+  width:600px;
+  height:340px;
+  margin:40px auto;
+}
+
+#login_container h1 {
+  text-align:center;
+  color:#2574A9;
+}
+
+#login_container h2 {
+  text-align:center;
+  font-weight:400;
+  color:#7f8c8d;
+}
+
+#login_container p {
+  font-size:20px;
+  font-weight:300;
+  color:#555;
+}

@@ -1,0 +1,20 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+  <head>
+    {% block title %}<title>Whip!</title> {% endblock %}
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="{% static 'scripts/jquery-production.js' %}"></script>
+    <script type="text/javascript" src="{% static 'scripts/validation.js' %}"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      var response = "{{ response }}";
+      processResponse(response);
+    });
+    </script>
+  </head>
+  <body>
+    {% block content %} {% endblock %}
+  </body>
+</html>

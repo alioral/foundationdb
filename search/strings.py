@@ -1,0 +1,5 @@
+MESSAGE_SUCCESS = "Task successfully added"
+MESSAGE_INVALID_REQUEST_METHOD = "Invalid request method detected!"
+MESSAGE_INVALID_COMPANY_NAME = "Company you have wanted to assign tasks for is not in our database yet."
+MESSAGE_SAVE_ERROR_TASK = "A system error occured while saving the task. Our sincerest apologies."
+MESSAGE_SAVE_ERROR_TASK_ORDER = "A system error occured. Please accept our apology."

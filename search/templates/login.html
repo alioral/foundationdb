@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}<title>Company Login</title>{% endblock %}
+{% block content %}
+<div id="login_container" style="">
+  <h1>Whip! Company Login</h1>
+  <h2>Ever wanted to schedule your features according to your customers?</h2>
+  <p>Whip! remains to be one of the best project management tools out there and also
+    the best source for companies to connect with their customers.</p>
+  <form id="login_form" action="/process_login/" method="post">
+    {% csrf_token %}
+    <input name="company" type="text" style="width:578px;" class="text_box" placeholder="Company email"/>
+    <input name="password" type="password" style="width:578px;" class="text_box" placeholder="Company password"/>
+    <input type="submit" style="background-color:#2C3E50;" id="btn_login" value="LOGIN"/>
+  </form>
+</div>
+{% endblock %}

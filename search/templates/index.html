@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+<div id="main_container">
+  <div id="container">
+    <h1>Whip! is a to do list created by customers</h1>
+    <div id="info_area">
+      <p id="info_area_text">
+      There are a lot of applications like Trello, Asana,
+        JIRA and many more for project management. However
+        all of them are internal. Whip! disrupts the management
+        with also letting consumers collaborate and assign tasks
+        for the firm. Tracking your customers' feedback has never
+        been easier.
+      </p>
+    </div>
+    <form id="task_form" action="/process/" method="post">
+      {% csrf_token %}
+      <input name="company" type="text" class="text_box" placeholder="Company name"/>
+      <input name="task" type="text" class="text_box" placeholder="Description of the task"/>
+      <input type="submit" id="btn_assign" value="ASSIGN TASK"/>
+    </form>
+    <div id="company">
+      <p>Are you a company? <a href="{% url 'login' %}">Login right here!</a></p>
+    </div>
+  </div>
+</div>
+{% endblock %}
